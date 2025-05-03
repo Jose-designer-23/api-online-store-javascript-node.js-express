@@ -39,10 +39,17 @@ Para conectar la API a tu base de datos en la nube MongoDB Atlas, sigue estos pa
 
 6.  **Configura la variable de entorno en `.env`:**
     * Cuando crees la estructura del proyecto que te diré más adelante, crea un archivo `.env` en la raíz de tu proyecto (si no lo has hecho ya).
-    * Define la variable de entorno `MONGODB_URI` con la URI de conexión que obtuviste:
+    * Define el puerto que vas a utilizar, la variable de entorno `MONGODB_URI` con la URI de conexión que obtuviste y tu nombre de la base de datos con MONGODBNAME. Debes tener esta configuración, si no, la api no funcionará.
+        ```
+       PORT: El puerto que utilices.
+        ```
         ```
         MONGODB_URI=mongodb+srv://<tu_usuario>:<tu_contraseña>@<tu-cluster>.mongodb.net/<nombre_de_tu_basededatos>?retryWrites=true&w=majority
         ```
+      ```
+        MONGODBNAME=Nombre de la base de datos
+      ```
+      
         **Recuerda no subir nunca tu archivo `.env` a tu repositorio de GitHub por motivos de seguridad.** Añade `.env` a tu archivo `.gitignore`.
 
 ¡Ahora tu API debería poder conectarse a tu base de datos en MongoDB Atlas!
