@@ -1,6 +1,6 @@
 # api-online-store-javascript-node.js-express
 ## Descripción
-Backend (API) para una tienda online desarrollado con JavaScript, utilizando los frameworks Node.js y Express. Proporciona endpoints RESTful para la gestión de productos, usuarios y pedidos actualmente.
+Backend (API) para una tienda online desarrollado con JavaScript, utilizando los frameworks Node.js y Express. Proporciona endpoints RESTful para la gestión de productos, usuarios y pedidos actualmente. 
 
 ## Prerrequisitos
 * [Última versión estable de Node.js](https://nodejs.org/)
