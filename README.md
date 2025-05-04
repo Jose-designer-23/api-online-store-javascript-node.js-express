@@ -129,8 +129,7 @@ Proyecto
     * Creación de nuevos pedidos
     * Listado de total de los pedidos realizados
     * Obtención de detalles de un pedido específico
-    * Actualización del estado de un pedido
-    * Eliminación de un pedido
+    * Actualización y eliminación de ventas con gestión de inventario: Las ventas pueden ser actualizadas (añadiendo o quitando productos) o eliminadas, lo que ajustará automáticamente el stock disponible de los productos afectados.
       
 ## Endpoints de la API (Ejemplos)
 ### Endpoints de Usuarios
